@@ -14,6 +14,15 @@
 		1A1EFE04260A8D7400B02910 /* nearBuy10.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EFE02260A8D7400B02910 /* nearBuy10.xcdatamodeld */; };
 		1A1EFE06260A8D7500B02910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1EFE05260A8D7500B02910 /* Assets.xcassets */; };
 		1A1EFE09260A8D7500B02910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1EFE07260A8D7500B02910 /* LaunchScreen.storyboard */; };
+		1A1EFE12260A943B00B02910 /* StoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EFE11260A943B00B02910 /* StoreTableViewController.swift */; };
+		1A1EFE17260A944F00B02910 /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EFE16260A944F00B02910 /* ItemTableViewController.swift */; };
+		1A1EFE1A260A947E00B02910 /* AddNewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EFE19260A947E00B02910 /* AddNewItemViewController.swift */; };
+		1A1EFE1D260A949500B02910 /* ShoppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EFE1C260A949500B02910 /* ShoppingTableViewController.swift */; };
+		1A1EFE23260A95FD00B02910 /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EFE1F260A95FD00B02910 /* Store+CoreDataClass.swift */; };
+		1A1EFE24260A95FD00B02910 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EFE20260A95FD00B02910 /* Store+CoreDataProperties.swift */; };
+		1A1EFE25260A95FD00B02910 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EFE21260A95FD00B02910 /* Item+CoreDataClass.swift */; };
+		1A1EFE26260A95FD00B02910 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EFE22260A95FD00B02910 /* Item+CoreDataProperties.swift */; };
+		1A44A875261256B500337DA3 /* DetailedItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44A874261256B500337DA3 /* DetailedItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,15 @@
 		1A1EFE05260A8D7500B02910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A1EFE08260A8D7500B02910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A1EFE0A260A8D7500B02910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A1EFE11260A943B00B02910 /* StoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewController.swift; sourceTree = "<group>"; };
+		1A1EFE16260A944F00B02910 /* ItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
+		1A1EFE19260A947E00B02910 /* AddNewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemViewController.swift; sourceTree = "<group>"; };
+		1A1EFE1C260A949500B02910 /* ShoppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewController.swift; sourceTree = "<group>"; };
+		1A1EFE1F260A95FD00B02910 /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Store+CoreDataClass.swift"; path = "nearBuy10/Data/Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1A1EFE20260A95FD00B02910 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Store+CoreDataProperties.swift"; path = "nearBuy10/Data/Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1A1EFE21260A95FD00B02910 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Item+CoreDataClass.swift"; path = "nearBuy10/Data/Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1A1EFE22260A95FD00B02910 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Item+CoreDataProperties.swift"; path = "nearBuy10/Data/Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1A44A874261256B500337DA3 /* DetailedItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailedItemViewController.swift; path = ../../../../../James/Desktop/nearBuy10/nearBuy10/Controllers/DetailedItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +60,10 @@
 		1A1EFDED260A8D7400B02910 = {
 			isa = PBXGroup;
 			children = (
+				1A1EFE1F260A95FD00B02910 /* Store+CoreDataClass.swift */,
+				1A1EFE20260A95FD00B02910 /* Store+CoreDataProperties.swift */,
+				1A1EFE21260A95FD00B02910 /* Item+CoreDataClass.swift */,
+				1A1EFE22260A95FD00B02910 /* Item+CoreDataProperties.swift */,
 				1A1EFDF8260A8D7400B02910 /* nearBuy10 */,
 				1A1EFDF7260A8D7400B02910 /* Products */,
 			);
@@ -62,12 +84,25 @@
 				1A1EFDFB260A8D7400B02910 /* SceneDelegate.swift */,
 				1A1EFDFD260A8D7400B02910 /* ViewController.swift */,
 				1A1EFDFF260A8D7400B02910 /* Main.storyboard */,
+				1A1EFE14260A944000B02910 /* Controllers */,
 				1A1EFE05260A8D7500B02910 /* Assets.xcassets */,
 				1A1EFE07260A8D7500B02910 /* LaunchScreen.storyboard */,
 				1A1EFE0A260A8D7500B02910 /* Info.plist */,
 				1A1EFE02260A8D7400B02910 /* nearBuy10.xcdatamodeld */,
 			);
 			path = nearBuy10;
+			sourceTree = "<group>";
+		};
+		1A1EFE14260A944000B02910 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A1EFE11260A943B00B02910 /* StoreTableViewController.swift */,
+				1A1EFE16260A944F00B02910 /* ItemTableViewController.swift */,
+				1A1EFE19260A947E00B02910 /* AddNewItemViewController.swift */,
+				1A1EFE1C260A949500B02910 /* ShoppingTableViewController.swift */,
+				1A44A874261256B500337DA3 /* DetailedItemViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +176,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A1EFDFE260A8D7400B02910 /* ViewController.swift in Sources */,
+				1A1EFE1D260A949500B02910 /* ShoppingTableViewController.swift in Sources */,
+				1A1EFE1A260A947E00B02910 /* AddNewItemViewController.swift in Sources */,
 				1A1EFE04260A8D7400B02910 /* nearBuy10.xcdatamodeld in Sources */,
+				1A1EFE23260A95FD00B02910 /* Store+CoreDataClass.swift in Sources */,
+				1A1EFE25260A95FD00B02910 /* Item+CoreDataClass.swift in Sources */,
+				1A44A875261256B500337DA3 /* DetailedItemViewController.swift in Sources */,
+				1A1EFE26260A95FD00B02910 /* Item+CoreDataProperties.swift in Sources */,
+				1A1EFE24260A95FD00B02910 /* Store+CoreDataProperties.swift in Sources */,
 				1A1EFDFA260A8D7400B02910 /* AppDelegate.swift in Sources */,
 				1A1EFDFC260A8D7400B02910 /* SceneDelegate.swift in Sources */,
+				1A1EFE17260A944F00B02910 /* ItemTableViewController.swift in Sources */,
+				1A1EFE12260A943B00B02910 /* StoreTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
