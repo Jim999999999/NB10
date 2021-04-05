@@ -59,31 +59,31 @@ class ItemTableViewController: UITableViewController {
     }
     
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        guard segue.identifier == "goToDetailsSegue" else {return}
-        let destinationVC = segue.destination as! DetailedItemViewController
+//         guard segue.identifier == "goToDetailsSegue" else {return}
+//         let destinationVC = segue.destination as! DetailedItemViewController
         
-        destinationVC.selectedItem = detailedItem
+//         destinationVC.selectedItem = detailedItem
         
         
-    }
+//     }
         
        
     
     
-    @objc func longPress(longPressGestureRecognizer: UILongPressGestureRecognizer) {
+//     @objc func longPress(longPressGestureRecognizer: UILongPressGestureRecognizer) {
 
-        if longPressGestureRecognizer.state == UIGestureRecognizer.State.began {
-            let touchPoint = longPressGestureRecognizer.location(in: self.view)
-            if let indexPath = tableView.indexPathForRow(at: touchPoint) {
-                print("Long Press active!")
-                detailedItem = itemArray[indexPath.row]
-                print(detailedItem?.itemName)
-                performSegue(withIdentifier: "goToDetailsSegue", sender: UITableViewCell.self)
-            }
-        }
-    }
+//         if longPressGestureRecognizer.state == UIGestureRecognizer.State.began {
+//             let touchPoint = longPressGestureRecognizer.location(in: self.view)
+//             if let indexPath = tableView.indexPathForRow(at: touchPoint) {
+//                 print("Long Press active!")
+//                 detailedItem = itemArray[indexPath.row]
+//                 print(detailedItem?.itemName)
+//                 performSegue(withIdentifier: "goToDetailsSegue", sender: UITableViewCell.self)
+//             }
+//         }
+//     }
     
     
     //MARK: - Save and Load Functions
